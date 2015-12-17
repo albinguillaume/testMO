@@ -1,0 +1,25 @@
+Options +FollowSymlinks
+RewriteEngine on
+
+#redirige si ce n'est pas un répertoire, un fichier et ne commence pas par /en/ ou /fr/
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_URI} !^(en|fr)/
+#RewriteRule ^(.*)$ /en/$1 [L,R=301,QSA]
+
+RewriteRule ^(FR|LU|MC|BE|ES|PT)_(FR|EN|ES|PT|NL)(/?)$ index.php?pays=$1&langue=$2 [L,QSA]
+
+#RewriteRule ^(en|fr)(/?)$ index.php?lng=$1 [L,QSA]
+#RewriteRule ^(en|fr)/form(/?)$ index.php?lng=$1&page=form [L,QSA]
+#RewriteRule ^(en|fr)/confirm(/?)$ index.php?lng=$1&page=confirm [L,QSA]
+#RewriteRule ^(en|fr)/(.*)$ $2?lng=$1 [L,QSA]
+
+
+#RewriteRule ^mobile(/?)$ index.php [L,QSA]
+#RewriteRule ^mobile/$ index.php [L,QSA]
+#RewriteRule ^mobile/confirmation(/?)$ index.php?page=confirm [L,QSA]
+
+#RewriteRule ^mobile/(.*)$ $1 [L,QSA]
+
+#RewriteRule ^confirmation$ index.php?page=confirm [L,QSA]
+#RewriteRule ^confirmation/$ index.php?page=confirm [L,QSA]

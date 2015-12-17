@@ -1,0 +1,422 @@
+/*  */
+
+/*@font-face {
+    font-family: 'robotothin_italic';
+    src: url('/themes/fonts/Roboto-ThinItalic-webfont.eot');
+    src: url('/themes/fonts/Roboto-ThinItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/themes/fonts/Roboto-ThinItalic-webfont.woff') format('woff'),
+         url('/themes/fonts/Roboto-ThinItalic-webfont.ttf') format('truetype'),
+         url('/themes/fonts/Roboto-ThinItalic-webfont.svg#robotothin_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'robotolight';
+    src: url('/themes/fonts/Roboto-Light-webfont.eot');
+    src: url('/themes/fonts/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/themes/fonts/Roboto-Light-webfont.woff') format('woff'),
+         url('/themes/fonts/Roboto-Light-webfont.ttf') format('truetype'),
+         url('/themes/fonts/Roboto-Light-webfont.svg#robotolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'robotolight_italic';
+    src: url('/themes/fonts/Roboto-LightItalic-webfont.eot');
+    src: url('/themes/fonts/Roboto-LightItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/themes/fonts/Roboto-LightItalic-webfont.woff') format('woff'),
+         url('/themes/fonts/Roboto-LightItalic-webfont.ttf') format('truetype'),
+         url('/themes/fonts/Roboto-LightItalic-webfont.svg#robotolight_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}*/
+@font-face {
+    font-family: 'robotoregular';
+    src: url('/themes/fonts/Roboto-Regular-webfont.eot');
+    src: url('/themes/fonts/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/themes/fonts/Roboto-Regular-webfont.woff') format('woff'),
+         url('/themes/fonts/Roboto-Regular-webfont.ttf') format('truetype'),
+         url('/themes/fonts/Roboto-Regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/*@font-face {
+    font-family: 'robotoitalic';
+    src: url('/themes/fonts/Roboto-Italic-webfont.eot');
+    src: url('/themes/fonts/Roboto-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/themes/fonts/Roboto-Italic-webfont.woff') format('woff'),
+         url('/themes/fonts/Roboto-Italic-webfont.ttf') format('truetype'),
+         url('/themes/fonts/Roboto-Italic-webfont.svg#robotoitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'robotomedium';
+    src: url('/themes/fonts/Roboto-Medium-webfont.eot');
+    src: url('/themes/fonts/Roboto-Medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/themes/fonts/Roboto-Medium-webfont.woff') format('woff'),
+         url('/themes/fonts/Roboto-Medium-webfont.ttf') format('truetype'),
+         url('/themes/fonts/Roboto-Medium-webfont.svg#robotomedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'robotomedium_italic';
+    src: url('/themes/fonts/Roboto-MediumItalic-webfont.eot');
+    src: url('/themes/fonts/Roboto-MediumItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/themes/fonts/Roboto-MediumItalic-webfont.woff') format('woff'),
+         url('/themes/fonts/Roboto-MediumItalic-webfont.ttf') format('truetype'),
+         url('/themes/fonts/Roboto-MediumItalic-webfont.svg#robotomedium_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'robotobold';
+    src: url('/themes/fonts/Roboto-Bold-webfont.eot');
+    src: url('/themes/fonts/Roboto-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/themes/fonts/Roboto-Bold-webfont.woff') format('woff'),
+         url('/themes/fonts/Roboto-Bold-webfont.ttf') format('truetype'),
+         url('/themes/fonts/Roboto-Bold-webfont.svg#robotobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'robotobold_italic';
+    src: url('/themes/fonts/Roboto-BoldItalic-webfont.eot');
+    src: url('/themes/fonts/Roboto-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/themes/fonts/Roboto-BoldItalic-webfont.woff') format('woff'),
+         url('/themes/fonts/Roboto-BoldItalic-webfont.ttf') format('truetype'),
+         url('/themes/fonts/Roboto-BoldItalic-webfont.svg#robotobold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'robotoblack';
+    src: url('/themes/fonts/Roboto-Black-webfont.eot');
+    src: url('/themes/fonts/Roboto-Black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/themes/fonts/Roboto-Black-webfont.woff') format('woff'),
+         url('/themes/fonts/Roboto-Black-webfont.ttf') format('truetype'),
+         url('/themes/fonts/Roboto-Black-webfont.svg#robotoblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'robotoblack_italic';
+    src: url('/themes/fonts/Roboto-BlackItalic-webfont.eot');
+    src: url('/themes/fonts/Roboto-BlackItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/themes/fonts/Roboto-BlackItalic-webfont.woff') format('woff'),
+         url('/themes/fonts/Roboto-BlackItalic-webfont.ttf') format('truetype'),
+         url('/themes/fonts/Roboto-BlackItalic-webfont.svg#robotoblack_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}*/
+@font-face {
+    font-family: 'roboto_condensedlight';
+    src: url('/themes/fonts/RobotoCondensed-Light-webfont.eot');
+    src: url('/themes/fonts/RobotoCondensed-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/themes/fonts/RobotoCondensed-Light-webfont.woff') format('woff'),
+         url('/themes/fonts/RobotoCondensed-Light-webfont.ttf') format('truetype'),
+         url('/themes/fonts/RobotoCondensed-Light-webfont.svg#roboto_condensedlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/*@font-face {
+    font-family: 'roboto_condensedlight_italic';
+    src: url('/themes/fonts/RobotoCondensed-LightItalic-webfont.eot');
+    src: url('/themes/fonts/RobotoCondensed-LightItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/themes/fonts/RobotoCondensed-LightItalic-webfont.woff') format('woff'),
+         url('/themes/fonts/RobotoCondensed-LightItalic-webfont.ttf') format('truetype'),
+         url('/themes/fonts/RobotoCondensed-LightItalic-webfont.svg#roboto_condensedlight_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}*/
+@font-face {
+    font-family: 'roboto_condensedregular';
+    src: url('/themes/fonts/RobotoCondensed-Regular-webfont.eot');
+    src: url('/themes/fonts/RobotoCondensed-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/themes/fonts/RobotoCondensed-Regular-webfont.woff') format('woff'),
+         url('/themes/fonts/RobotoCondensed-Regular-webfont.ttf') format('truetype'),
+         url('/themes/fonts/RobotoCondensed-Regular-webfont.svg#roboto_condensedregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/*@font-face {
+    font-family: 'roboto_condenseditalic';
+    src: url('/themes/fonts/RobotoCondensed-Italic-webfont.eot');
+    src: url('/themes/fonts/RobotoCondensed-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/themes/fonts/RobotoCondensed-Italic-webfont.woff') format('woff'),
+         url('/themes/fonts/RobotoCondensed-Italic-webfont.ttf') format('truetype'),
+         url('/themes/fonts/RobotoCondensed-Italic-webfont.svg#roboto_condenseditalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}*/
+@font-face {
+    font-family: 'roboto_condensedbold';
+    src: url('/themes/fonts/RobotoCondensed-Bold-webfont.eot');
+    src: url('/themes/fonts/RobotoCondensed-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/themes/fonts/RobotoCondensed-Bold-webfont.woff') format('woff'),
+         url('/themes/fonts/RobotoCondensed-Bold-webfont.ttf') format('truetype'),
+         url('/themes/fonts/RobotoCondensed-Bold-webfont.svg#roboto_condensedbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/*@font-face {
+    font-family: 'roboto_condensedbold_italic';
+    src: url('/themes/fonts/RobotoCondensed-BoldItalic-webfont.eot');
+    src: url('/themes/fonts/RobotoCondensed-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/themes/fonts/RobotoCondensed-BoldItalic-webfont.woff') format('woff'),
+         url('/themes/fonts/RobotoCondensed-BoldItalic-webfont.ttf') format('truetype'),
+         url('/themes/fonts/RobotoCondensed-BoldItalic-webfont.svg#roboto_condensedbold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'robotothin';
+    src: url('/themes/fonts/Roboto-Thin-webfont.eot');
+    src: url('/themes/fonts/Roboto-Thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/themes/fonts/Roboto-Thin-webfont.woff') format('woff'),
+         url('/themes/fonts/Roboto-Thin-webfont.ttf') format('truetype'),
+         url('/themes/fonts/Roboto-Thin-webfont.svg#robotothin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}*/
+
+
+
+
+* { margin: 0; padding: 0; }
+a img { border: 0px; }
+ol, ul { list-style: none outside none; }
+sup { vertical-align: baseline; position: relative; /*_position: static;*/ top: -3px; font-size: 0.80em; }
+sub { vertical-align: baseline; position: relative; /*_position: static;*/ top: 3px; font-size: 0.80em; }
+html { height: 100%; width: 100%; font-family: arial; font-size: 11px; background: #131417; }
+body { min-height: 100%; width: 100%; text-align: center; /*background: #0e0e12;*/ /*background: #afb1b3;*/ }/*131417*/
+html, body { margin:0; padding:0; min-height:100%; /*background: #0e0e12;*/ }
+#page { width: 100%; position: relative; margin: 0 auto; }
+label { font-weight: normal; margin-bottom: 0; }
+mark, .mark { background: none; padding: 0; }
+input[type="radio"], input[type="checkbox"] { line-height: normal; margin: 0 0 0 0; }
+
+/* HOME */
+body.body_page_home { background: #131417 url(images/home_bg_v2.jpg) center top no-repeat; }
+html.html_page_coordonnees, 
+html.html_page_informations, 
+html.html_page_confirmation { background: #000000; }
+body.body_page_coordonnees, 
+body.body_page_informations, 
+body.body_page_confirmation { background: #000000 url(images/page_bg_v2.jpg) center top no-repeat; }
+
+#page_home { width: 1215px; height: 643px; margin: 0 auto; position: relative; }
+#page_home_bg { display: block; position: absolute; top: 0px; left: 0px; width: 1215px; height: 643px; }
+#page_home_title { display: block; position: absolute; top: 160px; left: 735px; width: 251px; height: 108px; }
+#page_home_language { display: block; position: absolute; top: 376px; left: 734px; width: 253px; height: 42px; }
+#page_home_country { display: block; position: absolute; top: 325px; left: 734px; width: 253px; height: 42px; }
+
+#contener_id_country, #contener_id_language { display: block; width: 100%; height: 100%; }
+
+/* CUSTOM UI SELECT */
+#page .contener_select .ui-selectmenu-button { position: relative; width: 100% !important; height: 40px; background: #ffffff; border: 1px #1d1d2a solid; font-family: 'roboto_condensedregular', Arial; font-weight: normal; font-size: 16px; color: #0e0d12; }
+#page .contener_select.error .ui-selectmenu-button { border: 1px #ff0000 solid; }
+#page .contener_select .ui-selectmenu-button span.ui-icon { width: 10px; height: 6px; position: absolute; top: 50%; margin-top: -3px; /*right: 1.5em;*/ right: 1em; background: url(images/select_puce.png) no-repeat; }
+#page .contener_select .ui-selectmenu-button.ui-corner-top span.ui-icon { background: url(images/select_puce_open.png) no-repeat; }
+#page .contener_select .ui-selectmenu-button .ui-selectmenu-text { line-height: 38px; font-family: 'roboto_condensedregular', Arial; font-weight: normal; font-size: 16px; color: #0e0d12; padding: 0 1.7em 0em 0.8em; }
+.ui-menu .ui-state-focus, 
+.ui-menu .ui-state-active { margin: 0; }
+.ui-selectmenu-menu .ui-menu { background: #ffffff; border: 1px #1d1d2a solid; border-top: 0; }
+.ui-selectmenu-menu .ui-menu.selectmenu-overflow { max-height: 275px; }
+.ui-selectmenu-menu .ui-menu li { background: #ffffff; height: 38px; line-height: 38px; font-family: 'roboto_condensedregular', Arial; font-weight: normal; font-size: 15px; color: #0e0d12; padding-top: 0; padding-bottom: 0; text-align: left; }
+.ui-selectmenu-menu .ui-menu li.ui-state-focus,
+.ui-selectmenu-menu .ui-menu li.ui-state-active { background: #29295d; color: #ffffff; }
+
+.contener_input_text input { border: 1px #1d1d2a solid; width: 100%; height: 40px; line-height: 40px; font-family: "roboto_condensedregular", Arial; font-size: 16px; font-weight: normal; color: #0e0d12; text-indent: 13px; -webkit-border-radius: 0px; -moz-border-radius: 0px; border-radius: 0px; }
+.contener_input_submit input { padding: 7px 64px 9px 64px; font-family: "roboto_condensedbold", Arial; font-size: 20px; font-weight: normal; color: #ffffff; text-transform: uppercase; -webkit-border-radius: 0px; -moz-border-radius: 0px; border-radius: 0px; background: #29295d; border: 0; cursor: pointer; }
+
+.page_contenu { width: 1215px; margin: 0 auto; position: relative; /*background: #000000 url(images/page_bg.png) center top no-repeat;*/ }
+
+#page_bg { display: block; position: absolute; top: 0px; left: 0px; width: 1215px; height: 733px; }
+#page_title { display: block; position: absolute; top: 86px; left: 735px; width: 251px; height: 80px; }
+#page_subtitle { display: block; position: absolute; top: 206px; left: 723px; width: 284px; height: 38px; font-family: 'roboto_condensedlight', Arial; font-weight: normal; font-size: 20px; color: #ffffff; line-height: 22px; }
+#bienvenue_parmi_les_membres_de_la_famille_maserati { display: block; position: absolute; top: 209px; left: 753px; width: 224px; height: 38px; }
+#page_content_contener { width: 100%; padding: 314px 0 70px 0; }
+#page_content { width: 846px; height: 357px; background: #ffffff; margin: 0 auto; }
+#page_informations #page_content { height: auto; }
+
+#page_coordonnees #contener_intro { margin-left: 40px; width: 388px; float: left; }
+#page_coordonnees #intro1 { margin-top: 40px; font-family: 'roboto_condensedbold', Arial; font-weight: normal; font-size: 20px; color: #29295d; text-align: left; }
+#page_coordonnees #intro2 { margin-top: 26px; font-family: 'roboto_condensedlight', Arial; font-weight: normal; font-size: 16px; color: #0e0d12; text-align: left; }
+#page_coordonnees #fields_contener { float: right; width: 375px; margin-right: 40px; margin-top: 40px; }
+#page_coordonnees #fields_contener .contener_input_text { display: block; width: 370px; margin-bottom: 10px; }
+#page_coordonnees #fields_contener #contener_id_email { margin-bottom: 0px; }
+#page_coordonnees .contener_input_submit { display: block; padding-top: 35px; clear: both; }
+
+#page_informations #contener_intro { margin-left: 40px; margin-right: 40px; }
+#page_informations #intro1 { padding-top: 40px; font-family: 'roboto_condensedbold', Arial; font-weight: normal; font-size: 20px; color: #0e0d12; text-align: left; }
+#page_informations #intro2 { margin-top: 15px; margin-bottom: 15px; font-family: 'roboto_condensedlight', Arial; font-weight: normal; font-size: 18px; color: #0e0d12; text-align: left; }
+
+#page_informations .bloc_infos_contener { margin: 0 0; clear: both; }
+#page_informations .bloc_infos { width: 370px; float: left; margin-top: 40px; margin-left: 40px; text-align: left; }
+#page_informations #bloc_votre_passion { float: right; margin-right: 40px; margin-left: 0; }
+#page_informations .bloc_infos h2 { font-family: 'roboto_condensedbold', Arial; font-weight: normal; font-size: 20px; color: #29295d; text-transform: uppercase; text-align: left; }
+#page_informations .bloc_infos .contener_input_text, 
+#page_informations .bloc_infos .contener_select { margin-top: 9px; display: block; width: 370px; }
+#page_informations .bloc_infos .contener_select { width: 370px; }
+#page_informations .bloc_infos #label_date_achat{ font-family: 'roboto_condensedregular', Arial; font-weight: normal; font-size: 16px; color: #0e0d12; text-align: left; margin: 5px 0 3px 0; padding-left: 14px; }
+#page_informations .bloc_infos #contener_id_date_achat_jour { width: 100px; display: inline-block; margin-top: 0; }
+#page_informations .bloc_infos #contener_id_date_achat_mois { width: 106px; display: inline-block; margin-left: 9px; margin-top: 0; }
+#page_informations .bloc_infos #contener_id_date_achat_annee { width: 146px; display: inline-block; margin-left: 9px; margin-top: 0; }
+#page_informations .bloc_infos #intro_votre_passion { margin-top: 9px; height: 42px; line-height: 42px; font-family: 'roboto_condensedlight', Arial; font-weight: normal; font-size: 16px; color: #0e0d12; text-align: left; }
+#page_informations .bloc_infos #intro_vos_coordonnees { margin-top: 9px; height: 42px; line-height: 42px; font-family: 'roboto_condensedlight', Arial; font-weight: normal; font-size: 18px; color: #0e0d12; text-align: left; }
+
+#page_informations .contener_input_radio_elts { display: block; width: 100%; text-align: left; }
+#page_informations .contener_input_radio_elts .gauche,
+#page_informations .contener_input_radio_elts .droite { display: inline-block; width: 184px; height: 40px; line-height: 40px; margin-top: 9px; }
+#page_informations .contener_input_radio_elts .contener_input_radio { height: 42px; line-height: 42px; }
+#page_informations .contener_input_radio_elts .contener_input_radio_elt label { line-height: 42px; font-family: 'roboto_condensedregular', Arial; font-weight: normal; font-size: 16px; color: #0e0d12; }
+
+#page_informations #bloc_vos_coordonnees { width: 766px; margin-right: 40px; }
+#page_informations .bloc_infos .fields_row { clear: both; }
+#page_informations .bloc_infos .contener_fields_gauche { width: 370px; float: left; }
+#page_informations .bloc_infos .contener_fields_droite { width: 370px; float: right; }
+#page_informations #vos_coordonnees_optins { clear: both; font-family: 'robotoregular', Arial; font-weight: normal; font-size: 12px; color: #0e0d12; padding-top: 20px; }
+#page_informations #vos_coordonnees_optins .label_glob { margin-right: 5px; }
+#page_informations #vos_coordonnees_optins p { margin-bottom: 0; }
+#page_informations #vos_coordonnees_optins label { font-weight: normal; margin-bottom: 0; vertical-align: middle; }
+#page_informations #vos_coordonnees_optins .contener_input_radio_elt { margin-right: 5px; }
+#page_informations #vos_coordonnees_optins .contener_input_radio_elt label { margin-right: 5px; vertical-align: middle; }
+#page_informations .contener_input_submit { display: block; padding-top: 35px; padding-bottom: 35px; clear: both; }
+
+#page_informations #bloc_votre_maserati_visuel { width: 427px; height: 200px; float: right; margin-top: 70px; margin-right: 4px; margin-left: 0; }
+#page_informations #bloc_votre_maserati_visuel img { /*position: absolute; top: 0; left: 50%; margin-left: -213px;*/ display: block; }
+
+#page_informations .bloc_infos .contener_select select { width: 370px; }
+
+.contener_select.error select, 
+.contener_input_text.error input { border: 1px #ff0000 solid; }
+
+
+#page_confirmation #contener_intro { margin-left: 40px; margin-right: 40px; }
+#page_confirmation #intro1 { padding-top: 40px; font-family: 'roboto_condensedbold', Arial; font-weight: normal; font-size: 30px; color: #0e0d12; text-align: left; }
+#page_confirmation #intro2 { margin-top: 15px; margin-bottom: 15px; font-family: 'roboto_condensedlight', Arial; font-weight: normal; font-size: 18px; color: #0e0d12; text-align: left; }
+#page_confirmation #intro2 b { font-family: 'roboto_condensedbold', Arial; font-weight: normal; font-size: 18px; color: #0e0d12; }
+#page_confirmation #intro3 { margin-top: 15px; margin-bottom: 15px; font-family: 'roboto_condensedlight', Arial; font-weight: normal; font-size: 18px; color: #0e0d12; text-align: left; }
+.contener_link { padding-top: 35px; }
+.contener_link a { padding: 7px 64px 9px 64px; font-family: "roboto_condensedbold", Arial; font-size: 20px; font-weight: normal; color: #ffffff; text-transform: uppercase; -webkit-border-radius: 0px; -moz-border-radius: 0px; border-radius: 0px; background: #29295d; border: 0; cursor: pointer; text-decoration: none; }
+.contener_link a:hover { text-decoration: none; }
+
+
+#contener_bottom_link { width: 1215px; /*height: 74px;*/ margin: 0 auto; text-align: right; }
+#bottom_link { padding: 25px 0; width: 1215px; height: 24px;line-height: 24px; margin: 0 auto; text-align: right; }
+#bottom_link span,
+#bottom_link a { display: inline-block; height: 24px; line-height: 24px; font-family: 'robotoregular', Arial; font-weight: normal; font-size: 10px; color: #ffffff; }
+#bottom_link span { padding: 0 10px; }
+#bottom_link a.fb_maserati { padding-left: 20px; background: url(images/ico_fb.png) left center no-repeat; margin-right: 130px; }
+
+
+#contener_mentions_legales { width: 1215px; /*height: 74px;*/ margin: 0 auto; text-align: left; padding-bottom: 20px; }
+#contener_mentions_legales p { margin: 0 120px; font-family: Arial; font-size: 9px; font-weight: normal; color: #ffffff; }
+#contener_mentions_legales p input { vertical-align: bottom; }
+
+
+
+/* MULTIPLE SELECT */
+.contener_select .btn-group { width: 100%; }
+.multiselect { position: relative; border: 1px #1d1d2a solid; border-color: #1d1d2a !important; width: 100%; height: 40px; line-height: 40px; background: #ffffff !important; text-align:left; font-family: "roboto_condensedregular", Arial; font-size: 16px; font-weight: normal; color: #0e0d12 !important; text-indent: 10px; -webkit-border-radius: 0px; -moz-border-radius: 0px; border-radius: 0px; padding: 0; }
+.btn-group.open .dropdown-toggle { box-shadow: none; }
+.caret { border: 0; display: inline-block; height: 0; margin: 0; vertical-align: middle; width: 10px; height: 6px; position: absolute; top: 50%; margin-top: -3px; /*right: 1.5em;*/ right: 1em; background: url(images/select_puce.png) no-repeat; }
+.open .caret {background: url(images/select_puce_open.png) no-repeat;}
+.multiselect-container { width: 100%; -webkit-border-radius: 0px; -moz-border-radius: 0px; border-radius: 0px; padding: 0; border: 0; box-shadow: none; background: #ffffff; border: 1px #1d1d2a solid; border-top: 0; border-color: #1d1d2a !important; }
+.multiselect-container li { background: #ffffff !important; height: 38px; line-height: 38px; font-family: 'roboto_condensedregular', Arial; font-weight: normal; font-size: 15px; color: #0e0d12; }
+.dropdown-menu > li > a:focus,
+.dropdown-menu > li > a { background: #ffffff; color: #0e0d12; line-height: 38px; padding-top: 0; padding-bottom: 0; }
+.dropdown-menu > li > a:hover { background: #29295d; color: #ffffff; }
+.dropdown-menu > .active > a, 
+.dropdown-menu > .active > a:hover, 
+.dropdown-menu > .active > a:focus { background: #29295d; color: #ffffff; }
+.multiselect-container > li > a > label > input[type="checkbox"] { position: relative; margin-right: 5px; }
+
+
+.ui-multiselect { position: relative; border: 1px #1d1d2a solid; width: 100%; height: 40px; line-height: 40px; background: #ffffff; text-align:left; font-family: "roboto_condensedregular", Arial; font-size: 16px; font-weight: normal; color: #0e0d12; text-indent: 10px; -webkit-border-radius: 0px; -moz-border-radius: 0px; border-radius: 0px; }
+.ui-multiselect span.ui-icon {/* float:right;*/ }
+.ui-multiselect-single .ui-multiselect-checkboxes input { position:absolute !important; top: auto !important; left:-9999px; }
+.ui-multiselect-single .ui-multiselect-checkboxes label { padding:5px !important; }
+.ui-multiselect .ui-state-active {background: url(images/select_puce_open.png) no-repeat; }
+.ui-multiselect span.ui-icon { width: 10px; height: 6px; position: absolute; top: 50%; margin-top: -3px; /*right: 1.5em;*/ right: 1em; background: url(images/select_puce.png) no-repeat; }
+.ui-state-active span.ui-icon { background: url(images/select_puce_open.png) no-repeat; }
+
+.ui-multiselect-header { margin-bottom:3px; padding:3px 0 3px 4px; }
+.ui-multiselect-header ul { font-size:0.9em; }
+.ui-multiselect-header ul li { float:left; padding:0 10px 0 0; }
+.ui-multiselect-header a { text-decoration:none; }
+.ui-multiselect-header a:hover { text-decoration:underline; }
+.ui-multiselect-header span.ui-icon { float:left; }
+.ui-multiselect-header li.ui-multiselect-close { float:right; text-align:right; padding-right:0; }
+
+.ui-multiselect-menu { display:none; padding:3px; position:absolute; z-index:10000; text-align: left; background: #ffffff; }
+.ui-multiselect-checkboxes { position:relative /* fixes bug in IE6/7 */; overflow-y:scroll; }
+.ui-multiselect-checkboxes label { cursor:default; display:block; border:1px solid transparent; padding:3px 1px; }
+.ui-multiselect-checkboxes label input { position:relative; top:1px; }
+.ui-multiselect-checkboxes label span { margin-left: 5px; }
+.ui-multiselect-checkboxes li { clear:both; /*font-size:0.9em;*/ padding-right:3px; background: #ffffff; height: 38px; line-height: 38px; font-family: 'roboto_condensedregular', Arial; font-weight: normal; font-size: 15px; color: #0e0d12; padding-top: 0; padding-bottom: 0; text-align: left; padding: 0; }
+.ui-multiselect-checkboxes li.ui-multiselect-optgroup-label { text-align:center; font-weight:bold; border-bottom:1px solid; }
+.ui-multiselect-checkboxes li.ui-multiselect-optgroup-label a { display:block; padding:3px; margin:1px 0; text-decoration:none; }
+
+
+.jquery-checkbox       {display: inline; font-size: 12px; line-height: 12px; cursor: pointer; cursor: hand; margin-right: 5px;}
+.jquery-checkbox .mark {display: inline;}
+.jquery-checkbox img {vertical-align: middle; width: 12px; height: 12px;}
+.jquery-checkbox img{background: transparent url(images/radio.png) no-repeat;}
+.jquery-checkbox img{ background-position: 0px 0px; }
+.jquery-checkbox-hover img{ /*background-position: 0px -20px;*/ }
+.jquery-checkbox-checked img{ background-position: 0px -12px; }
+.error .jquery-checkbox img{ background-position: 0px -24px; }
+.error .jquery-checkbox-checked img{ background-position: 0px -36px; }
+
+.radio_big .jquery-checkbox       {display: inline; font-size: 24px; line-height: 24px; cursor: pointer; cursor: hand; margin-right: 5px;}
+.radio_big .jquery-checkbox .mark {display: inline;}
+.radio_big .jquery-checkbox img {vertical-align: middle; width: 24px; height: 24px;}
+.radio_big .jquery-checkbox img{background: transparent url(images/radio_big.png) no-repeat;}
+.radio_big .jquery-checkbox img{ background-position: 0px 0px; }
+.radio_big .jquery-checkbox-hover img{ /*background-position: 0px -20px;*/ }
+.radio_big .jquery-checkbox-checked img{ background-position: 0px -24px; }
+.radio_big .error .jquery-checkbox img{ background-position: 0px -48px; }
+.radio_big .error .jquery-checkbox-checked img{ background-position: 0px -72px; }
+
+
+
+/* remove label borders in IE6 because IE6 does not support transparency */
+* html .ui-multiselect-checkboxes label { border:none }
+
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #0e0d12;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #0e0d12;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #0e0d12;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #0e0d12;
+}
+
