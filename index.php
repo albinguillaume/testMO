@@ -40,6 +40,8 @@
 		'telephone'=>page::trad('INFORMATIONS', 'label_telephone'), 
 	);
 	
+	//
+	
 	$oui_non = array(
 		'oui'=>page::trad('INFORMATIONS', 'label_oui'), 
 		'non'=>page::trad('INFORMATIONS', 'label_non')
